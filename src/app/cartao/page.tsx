@@ -1,5 +1,5 @@
-import { SiteShell } from '@/components/layout/site-shell';
-import { PremiumCard } from '@/components/card/premium-card';
+import { SiteShell } from "@/components/layout/site-shell";
+import { PremiumCard } from "@/components/card/premium-card";
 
 export default function CartaoPage() {
   return (

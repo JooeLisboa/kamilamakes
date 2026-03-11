@@ -1,16 +1,19 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import Link from 'next/link';
-import { motion } from 'framer-motion';
-import { ArrowUpRight } from 'lucide-react';
+import Image from "next/image";
+import Link from "next/link";
+import { motion } from "framer-motion";
+import { ArrowUpRight } from "lucide-react";
 
-import { cardLinks } from '@/data/socialLinks';
-import { chips, profile } from '@/data/profile';                          
-import { buildWhatsappLink } from '@/lib/whatsapp';
+import { cardLinks } from "@/data/socialLinks";
+import { chips, profile } from "@/data/profile";
+import { buildWhatsappLink } from "@/lib/whatsapp";
 
 export function PremiumCard() {
-  const whatsappLink = buildWhatsappLink(profile.whatsappNumber, profile.whatsappPrefill);
+  const whatsappLink = buildWhatsappLink(
+    profile.whatsappNumber,
+    profile.whatsappPrefill,
+  );
 
   return (
     <div className="relative mx-auto w-full max-w-md overflow-hidden rounded-[2.3rem] border border-champagne/20 bg-gradient-to-b from-graphite/90 via-noir/95 to-black p-5 shadow-luxe md:p-6">
@@ -23,11 +26,15 @@ export function PremiumCard() {
             alt={profile.name}
             width={156}
             height={156}
-            className="h-28 w-28 rounded-full object-cover md:h-32 md:w-32"
+            className="h-28 w-28 rounded-full object-cover md:h-60 md:w-60"
           />
         </div>
-        <h1 className="mt-5 text-3xl leading-none text-ivory">{profile.name}</h1>
-        <p className="mt-2 text-[0.68rem] uppercase tracking-[0.24em] text-champagne/62">{profile.cardSubtitle}</p>
+        <h1 className="mt-5 text-3xl leading-none text-ivory">
+          {profile.name}
+        </h1>
+        <p className="mt-2 text-[0.68rem] uppercase tracking-[0.24em] text-champagne/62">
+          {profile.cardSubtitle}
+        </p>
       </div>
 
       <div className="relative mt-5 flex flex-wrap justify-center gap-2">
