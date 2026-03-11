@@ -4,25 +4,24 @@ export const services: Service[] = [
   {
     title: 'Micropigmentação natural',
     description:
-      'Técnicas avançadas para valorizar sua expressão com acabamento elegante, harmônico e duradouro.',
-    highlight: 'Design personalizado'
+      'Arquitetura facial precisa para realçar sua expressão com sutileza, elegância e resultado autoral.',
+    highlight: 'Acabamento couture'
   },
   {
     title: 'Remoção a laser',
     description:
-      'Protocolos seguros e eficientes para remover pigmentos com precisão e acompanhamento especializado.',
-    highlight: '+1000 procedimentos'
+      'Tecnologia e protocolo seguro para remover pigmentos com precisão, conforto e acompanhamento especializado.',
+    highlight: 'Expertise comprovada'
   },
   {
     title: 'Perfumes árabes',
-    description:
-      'Curadoria exclusiva de fragrâncias intensas, sofisticadas e memoráveis para marcar presença.',
-    highlight: 'Seleção premium'
+    description: 'Curadoria de fragrâncias intensas e sofisticadas para criar presença e assinatura pessoal.',
+    highlight: 'Seleção exclusiva'
   }
 ];
 
 export const perfumesCopy = `Tem perfume que é delicado e encantador.
 Tem perfume que muda o clima do ambiente.
-E tem aqueles… que deixam lembrança.
+E tem aqueles... que deixam lembrança.
 
-No Studio Kamila M você encontra perfumes árabes que marcam presença.`;
+No Studio Kamila Miguel, você encontra perfumes árabes que traduzem presença.`;

@@ -10,7 +10,7 @@ import { TestimonialsSection } from '@/components/sections/testimonials-section'
 export default function HomePage() {
   return (
     <SiteShell>
-      <main className="space-y-20">
+      <main className="space-y-24 md:space-y-32">
         <HeroSection />
         <ServicesSection />
         <AuthoritySection />

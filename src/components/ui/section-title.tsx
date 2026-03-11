@@ -6,10 +6,10 @@ interface SectionTitleProps {
 
 export function SectionTitle({ eyebrow, title, description }: SectionTitleProps) {
   return (
-    <div className="space-y-3">
-      <span className="text-xs uppercase tracking-[0.3em] text-roseGold">{eyebrow}</span>
-      <h2 className="text-3xl font-semibold text-champagne md:text-4xl">{title}</h2>
-      {description ? <p className="max-w-2xl text-sm text-champagne/75 md:text-base">{description}</p> : null}
+    <div className="space-y-4">
+      <span className="inline-block text-[0.65rem] font-medium uppercase tracking-[0.38em] text-nude">{eyebrow}</span>
+      <h2 className="max-w-3xl text-4xl font-semibold leading-[1.08] text-ivory md:text-5xl">{title}</h2>
+      {description ? <p className="max-w-2xl text-sm leading-relaxed text-champagne/70 md:text-base">{description}</p> : null}
     </div>
   );
 }

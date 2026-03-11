@@ -1,4 +1,4 @@
-import { Instagram, MapPin, MessageCircle, Sparkles, Star, ThumbsUp } from 'lucide-react';
+import { Gem, Instagram, MapPin, MessageCircle, Sparkles, Star, ThumbsUp } from 'lucide-react';
 
 import { SocialLink } from '@/types';
 
@@ -11,7 +11,7 @@ export const cardLinks: SocialLink[] = [
   {
     label: 'Perfumes Árabes',
     href: '#perfumes',
-    icon: Sparkles
+    icon: Gem
   },
   {
     label: 'Micropigmentação',
