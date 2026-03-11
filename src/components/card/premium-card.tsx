@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 
 import { cardLinks } from '@/data/socialLinks';
-import { chips, profile } from '@/data/profile';
+import { chips, profile } from '@/data/profile';                          
 import { buildWhatsappLink } from '@/lib/whatsapp';
 
 export function PremiumCard() {
