@@ -1,0 +1,22 @@
+<svg width="1200" height="1500" viewBox="0 0 1200 1500" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="1500" fill="#0B0B0C"/>
+  <rect x="36" y="36" width="1128" height="1428" rx="42" stroke="url(#paint0_linear)" stroke-opacity="0.4"/>
+  <ellipse cx="954" cy="210" rx="300" ry="280" fill="#B47580" fill-opacity="0.26"/>
+  <ellipse cx="254" cy="1310" rx="390" ry="320" fill="#BEA06C" fill-opacity="0.16"/>
+  <ellipse cx="600" cy="680" rx="300" ry="420" fill="url(#paint1_radial)"/>
+  <path d="M606 450C538 450 483 505 483 573V700C483 809 570 896 679 896H746C846 896 927 815 927 715V636C927 534 845 452 743 452L606 450Z" fill="#D9BFA8" fill-opacity="0.26"/>
+  <path d="M530 592C530 499 605 424 698 424H736C834 424 914 504 914 602V662C914 760 834 840 736 840H700C606 840 530 764 530 670V592Z" fill="#E7D7C8" fill-opacity="0.14"/>
+  <path d="M551 995C616 940 788 934 865 997C927 1047 961 1137 961 1235V1257H465V1218C465 1125 495 1044 551 995Z" fill="#B47580" fill-opacity="0.27"/>
+  <path d="M478 338C518 260 601 208 692 208H742C846 208 938 277 977 375L995 420H461L478 338Z" fill="#161618"/>
+  <text x="120" y="1380" fill="#F1E5D8" fill-opacity="0.75" font-family="Georgia, serif" font-size="58" letter-spacing="5.5">KAMILA MIGUEL</text>
+  <defs>
+    <linearGradient id="paint0_linear" x1="91" y1="97" x2="1112" y2="1425" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1E5D8"/>
+      <stop offset="1" stop-color="#B47580"/>
+    </linearGradient>
+    <radialGradient id="paint1_radial" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(600 680) rotate(90) scale(420 300)">
+      <stop stop-color="#E7C8AE" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#D6B89C" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>
